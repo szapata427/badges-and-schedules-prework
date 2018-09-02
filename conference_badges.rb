@@ -11,8 +11,9 @@ return attendees_array
 end
 
 def assign_rooms(speakers)
+  array = []
   speakers.each_with_index do |speaker, idx|
-    print "Hello, #{speaker}! You'll be assigned to room #{idx + 1}!"
+     "Hello, #{speaker}! You'll be assigned to room #{idx + 1}!"
     
   end
  end
