@@ -13,7 +13,8 @@ end
 def assign_rooms(speakers)
   array = []
   speakers.each_with_index do |speaker, idx|
-     "Hello, #{speaker}! You'll be assigned to room #{idx + 1}!"
+    array.push( "Hello, #{speaker}! You'll be assigned to room #{idx + 1}!")
     
   end
+  return array
  end
