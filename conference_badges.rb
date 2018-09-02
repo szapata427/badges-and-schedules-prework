@@ -11,9 +11,10 @@ return attendees_array
 end
 
 def assign_rooms(speakers)
-  i = 0
+  i = 1
   assign = speakers.map do |speaker|
-    p "Hello, #{speaker}! You'll be assigned to room #{i+1}!"
+    p "Hello, #{speaker}! You'll be assigned to room #{i}!"
+    i += 1
   end
   return assign
 end
